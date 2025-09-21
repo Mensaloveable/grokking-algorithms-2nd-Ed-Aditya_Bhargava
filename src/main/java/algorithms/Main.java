@@ -2,8 +2,6 @@ package algorithms;
 
 import static algorithms.binarysearch.BinarySearch.binarySearch;
 
-//import static java.util.Arrays.binarySearch;
-//
 public class Main {
     public static void main(String[] args) {
 

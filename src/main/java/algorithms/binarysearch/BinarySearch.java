@@ -1,6 +1,10 @@
 package algorithms.binarysearch;
 
-public class BinarySearch {
+public final class BinarySearch {
+    // Private constructor to prevent instantiation
+    private BinarySearch() {
+        throw new AssertionError("Cannot instantiate utility class");
+    }
 
 
     /**
