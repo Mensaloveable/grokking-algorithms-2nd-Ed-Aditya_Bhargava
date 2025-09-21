@@ -14,7 +14,7 @@ public final class BinarySearch {
      * @param target the value to be searched for in the array
      * @return the index of the target value if found; -1 if the target is not found in the array
      * @throws IllegalArgumentException if the input array is null
-     * @BigO O(log n) — where n is the number of elements in the array
+     * @implSpec Time complexity (Big O notation): O(log n) — where n is the number of elements in the array
      */
     public static int binarySearch(int[] array, int target) {
         if (array == null) {
